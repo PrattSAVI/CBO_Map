@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
     <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+
+    <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <style>
         #map {
             position: absolute;
@@ -26,11 +29,7 @@
             right: 0;
             left: 0;
         }
-    </style>
-
-    <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <style>
+        
         body {
             font-family: 'Assistant';
             font-size: 22px;
@@ -85,9 +84,10 @@
             <div id="inner">
                 <h3>Community Based Organizations Map</h3>
                 <hr>
-                <p id='text'>Click on the points to view website, contact and focus areas community based organizations</p>
+                <p id='text'>Click on the markers to view website, contact information and focus areas of the community based organizations</p>
                 <p id='text'>Group information and location has been taen from the USFS 2017 Stew-MAP survey. Over 800 groups have responded to the survey. Groups whose address is a P.O Box has been represented at the center of the zipcode defined by the group.</p>
-                <p id='mini-text'>Web Map by: <a href='https://commons.pratt.edu/savi/' target="_tab">SAVI</a></p>
+                <hr>
+                <p id='mini-text'>Web Mapping by: <a href='https://commons.pratt.edu/savi/' target="_tab">SAVI</a></p>
                 <p id='mini-text'>Data Source: <a href='https://www.nrs.fs.fed.us/STEW-MAP/nyc/' target="_tab">USFS Stew-MAP 2017 NYC Survey</a></p>
             </div>
         </div>
