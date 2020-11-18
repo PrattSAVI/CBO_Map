@@ -1,4 +1,4 @@
-# CBO Map
+### CBO Map
 Mapping CBO Locations based on Stew-MAP Data, using Folium with custom HTML styling. 
 
 Click on the markers to view website, contact information and focus areas of the community based organizations.  
